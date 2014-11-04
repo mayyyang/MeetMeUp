@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB5B51151A089C51004CAD0E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B51141A089C51004CAD0E /* WebViewController.m */; };
 		FB69B54C1A0827830075CC64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB69B54B1A0827830075CC64 /* main.m */; };
 		FB69B54F1A0827830075CC64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB69B54E1A0827830075CC64 /* AppDelegate.m */; };
-		FB69B5521A0827830075CC64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB69B5511A0827830075CC64 /* ViewController.m */; };
+		FB69B5521A0827830075CC64 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB69B5511A0827830075CC64 /* RootViewController.m */; };
 		FB69B5551A0827830075CC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB69B5531A0827830075CC64 /* Main.storyboard */; };
 		FB69B5571A0827830075CC64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB69B5561A0827830075CC64 /* Images.xcassets */; };
 		FB69B55A1A0827830075CC64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB69B5581A0827830075CC64 /* LaunchScreen.xib */; };
 		FB69B5661A0827830075CC64 /* MeetMeUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB69B5651A0827830075CC64 /* MeetMeUpTests.m */; };
+		FB69B5711A087F120075CC64 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB69B5701A087F120075CC64 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB5B51131A089C51004CAD0E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FB5B51141A089C51004CAD0E /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		FB69B5461A0827830075CC64 /* MeetMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB69B54A1A0827830075CC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB69B54B1A0827830075CC64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB69B54D1A0827830075CC64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB69B54E1A0827830075CC64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB69B5501A0827830075CC64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB69B5511A0827830075CC64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB69B5501A0827830075CC64 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FB69B5511A0827830075CC64 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FB69B5541A0827830075CC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB69B5561A0827830075CC64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB69B5591A0827830075CC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FB69B55F1A0827830075CC64 /* MeetMeUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB69B5641A0827830075CC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB69B5651A0827830075CC64 /* MeetMeUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeUpTests.m; sourceTree = "<group>"; };
+		FB69B56F1A087F120075CC64 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FB69B5701A087F120075CC64 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				FB69B54D1A0827830075CC64 /* AppDelegate.h */,
 				FB69B54E1A0827830075CC64 /* AppDelegate.m */,
-				FB69B5501A0827830075CC64 /* ViewController.h */,
-				FB69B5511A0827830075CC64 /* ViewController.m */,
+				FB69B5501A0827830075CC64 /* RootViewController.h */,
+				FB69B5511A0827830075CC64 /* RootViewController.m */,
+				FB69B56F1A087F120075CC64 /* DetailViewController.h */,
+				FB69B5701A087F120075CC64 /* DetailViewController.m */,
+				FB5B51131A089C51004CAD0E /* WebViewController.h */,
+				FB5B51141A089C51004CAD0E /* WebViewController.m */,
 				FB69B5531A0827830075CC64 /* Main.storyboard */,
 				FB69B5561A0827830075CC64 /* Images.xcassets */,
 				FB69B5581A0827830075CC64 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB69B5521A0827830075CC64 /* ViewController.m in Sources */,
+				FB69B5521A0827830075CC64 /* RootViewController.m in Sources */,
+				FB5B51151A089C51004CAD0E /* WebViewController.m in Sources */,
 				FB69B54F1A0827830075CC64 /* AppDelegate.m in Sources */,
+				FB69B5711A087F120075CC64 /* DetailViewController.m in Sources */,
 				FB69B54C1A0827830075CC64 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,7 @@
 				FB69B56B1A0827830075CC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB69B56C1A0827830075CC64 /* Build configuration list for PBXNativeTarget "MeetMeUpTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				FB69B56E1A0827830075CC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
